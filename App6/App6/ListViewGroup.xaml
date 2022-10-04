@@ -14,7 +14,7 @@
                             Text="{Binding Title}"
                             Detail="{Binding DisplayName}"
                             DetailColor="DarkBlue"
-                            TextColor="Red"
+                            TextColor="DarkRed"
                             />
                     </DataTemplate>
                 </ListView.ItemTemplate>

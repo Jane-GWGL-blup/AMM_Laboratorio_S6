@@ -8,7 +8,6 @@ namespace App6
     {
         public string Title { get; set; }
         public string ShortName { get; set; }
-        public string DisplayName { get; set; }
         public Person (string title, string shortName)
         {
             Title = title;

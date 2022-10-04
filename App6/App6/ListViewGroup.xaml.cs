@@ -18,12 +18,17 @@ namespace App6
             GroupView.ItemsSource = people;
             people.Add(new Person("Alpha", "A")
             {
-                new Employee{ DisplayName = "Antonio Perez"}
+                new Employee{ DisplayName = "Antonio Banderas"}
             });
             people.Add(new Person("Bravo", "B")
             {
                 new Employee { DisplayName = "Bill Wrestler" },
                 new Employee { DisplayName = "Burt Indybrick" }
+            });
+            people.Add(new Person("Charlie", "C")
+            {
+                new Employee { DisplayName = "Celine Dion" },
+                new Employee { DisplayName = "Christopher Lloyd"}   
             });
             people.Add(new Person("Delta", "D")
             {
